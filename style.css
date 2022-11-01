@@ -6,7 +6,7 @@
 body{
     box-sizing: border-box;
     margin: .5em 3em; 
-    background-image: url("./image/kalmamigosLogo.jpg");
+    background-image: url("kalmamigosLogo.jpg");
     background-repeat: no-repeat;
     justify-content: center;
 }
