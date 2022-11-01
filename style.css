@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+
+/*index.html*/
+body{
+    box-sizing: border-box;
+    margin: .5em 3em; 
+    background-image: url("./image/kalmamigosLogo.jpg");
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    background-color: grey;
+    padding: .5em 1em;
+    border-radius: 10px;
+}
+.menu  h1{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.menu h1:hover{
+    cursor: default;
+    text-decoration:line-through grey 5px;
+}
+.menu ul{
+    display: flex;
+    margin-left: 20em;
+}
+.menu ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 5px;
+    margin: .5em 1em;
+}
+.menu ul li:hover{
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+    font-weight: bolder;
+}
+/*li href*/
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+/*box*/
+.box{
+    background-color: black;
+    margin: 5em 30em;
+    margin-bottom: 2em;
+    padding: 2em;
+    border-radius: 10px;
+}
+.box h2{
+    color: white;
+    font-family: monospace;
+    font-size: 12pt;
+    margin-bottom: 2em;
+}
+.box button{
+    margin: 1em 5em;
+}
+.box form button:hover{
+    background-color: azure;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: blue;
+}
+.box form button:active{
+    background-color: yellow;
+}
+.box form input:active{
+    background-color: yellow;
+}
+/*second box*/
+.secondBox{
+    position: relative;
+    margin: 1em 30em;
+    background-color: grey;
+    text-align: left;
+    padding: 1em;
+    height: 18vh;
+    border-radius: 10px;
+}
+.secondBox h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+    inline-size: 20em;
+}
+
+.secondBox form{
+    padding: 1em;
+}
+#password{
+    margin-top: .5em;
+}
+#sign{
+    margin: 0 5em;
+    margin-top: .5em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
